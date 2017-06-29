@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -40,8 +41,11 @@ input {
 	padding: 15px;
 	border: 2px solid grey;
 	border-radius: 2px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: grey;
+	font-size: 1em;
+	background-color: #F0F1F2;
 }
 
 button {
@@ -50,9 +54,34 @@ button {
 	border: 2px solid green;
 	border-radius: 2px;
 	background-color: green;
+	color: white;
+	font-size: 1em;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: darkgreen;
+	cursor: pointer;
 }
 
 .forgot_password {
 	text-align: center;
-	padding: 10px 0 20px 0;
+	padding: 10px 0 25px 0;
+	font-size: .9em;
+}
+
+.forgot_password a:link {
+	color: grey;
+}
+
+.login {
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.login a:link {
+	color: white;
 }
