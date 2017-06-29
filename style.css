@@ -38,6 +38,7 @@ h1 {
 input {
 	display: block;
 	width: 320px;
+	height: 55px;
 	padding: 15px;
 	border: 2px solid grey;
 	border-radius: 2px;
@@ -50,6 +51,8 @@ input {
 
 button {
 	width: 320px;
+	height: 55px;
+	margin-top: 5px;
 	padding: 15px;
 	border: 2px solid green;
 	border-radius: 2px;
